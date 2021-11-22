@@ -1,30 +1,31 @@
 * {                                                                 /* Universal declaration */
-    box-sizing: border-box;                                         /*   */
-    padding: 0;                                                     /*   */
-    margin: 0;                                                      /*   */
+    box-sizing: border-box;                                         /*sets padding and border to be included in the width and height of the container  */
+    padding: 0;                                                     
+    margin: 0;                                                      
 }
 
-body {                                                              /*   */
-    background-color: #d9dcd6;                                    /*   */
+body {                                                              
+    background-color: #d9dcd6;                                    /* Sets the background color of the whole page content */
 }
 
 .header {                                                           /*  class:  header */
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  /* Sets a font for class header */
+    background-color: #2a607c;                                      /* overrides web page background color for header class. */
+    color: #ffffff;                                                 /* Sets text color */
+    overflow: auto;
 }
 
 .header h1 {                                                        /*  h1 element under header class */
-    display: inline-block;                                          /*  Set elemenent to be in-line */
+    display: inline-block;                                          /*  Set elemenent to be inline-block */
     font-size: 48px;                                                
 }
 
-.header h1 .seo {                                                   /*   */
+.header h1 .seo {                                                   /* Sets text color for h1 under class header  */
     color: #d9dcd6;
 }
 
-.header div {                                                       /*   */
+.header div {                                                       /* sets div element under header class  */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,78 +33,55 @@ body {                                                              /*   */
     font-size: 20px;
 }
 
-.header div ul {                                                    /*   */
+.header div ul {                                                    /*  Eliminates bullets for list under div element of class header */
     list-style-type: none;
+    overflow: auto;
 }
 
-.header div ul li {                                                 /*   */
+.header div ul li {                                                 /* Forces list items to be on the same line block that are under div element of class header  */
     display: inline-block;
     margin-left: 25px;
 }
 
-a {                                                                 /*   */
+a {                                                                 /* Link's format declaration */
     color: #ffffff;
     text-decoration: none;
 }
 
-p {                                                                 /*   */
+p {                                                                 /* Formats paragrapah element */
     font-size: 16px;
-    text-align: justify;                                                    /* Added text-align: justify here */
+    text-align: justify;                                            /* Added text-align: justify here */
+    
 }
 
-.hero {                                                                 /*   */
+.hero {                                                             /*  Format declaration for the biggest picture on the web page - image is loaded and sized here */
+      
     height: 800px;
-    width: 100%;
+    max-width: auto;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg"); 
     background-size: cover;
     background-position: center;
+    
 }
 
-.float-left {                                                           /*   */
+.float-left {                                                           /* Item to be at the left portion of another item  */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {                                                          /*   */
+.float-right {                                                          /*  Item to be at the right portion of another item */
     float: right;
     margin-left: 25px;
 }
 
-.content {                                                              /*   */
+.content {                                                              /* Sets content container size, display and margin  */
     width: 75%;
+    max-width: 75%;
+    height: auto;
     display: inline-block;
     margin-left: 20px;
-}
-
-.benefits {                                                             /*   */
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-
-.col-content {                                                          /*   */
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-
-.col-content h3 {                                                       /*   */
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-
-.col-content img {                                                      /*   */
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+    overflow:auto
 }
 
 
@@ -114,12 +92,16 @@ p {                                                                 /*   */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    max-width: fit-content;
+    min-width: 10%;
+    overflow: auto;
 }
 
 
 
 .row-content-format img {                                               /*   */
     max-height: 200px;
+    width: auto;
 }
 
 
@@ -128,6 +110,49 @@ p {                                                                 /*   */
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+
+
+.benefits {                                                             /*   */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    max-width: 20%;
+    max-height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    overflow: auto;
+}
+
+
+.col-content {                                                          /*   */
+    margin-bottom: 32px;
+    color: #ffffff;
+    
+}
+
+
+.col-content h3 {                                                       /*   */
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+
+.col-content img {                                                      /*   */
+    display: block;
+    margin: 10px auto;
+    width: auto;
+    height: 150px;
+    /*
+    max-width: 150px;
+    height: auto;
+    */
+
+}
+
 
 
 
