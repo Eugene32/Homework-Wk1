@@ -8,16 +8,16 @@ body {                                                              /*   */
     background-color: #d9dcd6;                                    /*   */
 }
 
-.header {                                                           /*   */
+.header {                                                           /*  class:  header */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {                                                        /*   */
-    display: inline-block;
-    font-size: 48px;
+.header h1 {                                                        /*  h1 element under header class */
+    display: inline-block;                                          /*  Set elemenent to be in-line */
+    font-size: 48px;                                                
 }
 
 .header h1 .seo {                                                   /*   */
@@ -140,4 +140,8 @@ p {                                                                 /*   */
 
 .footer h2 {                                                            /*   */
     font-size: 20px;
+}
+
+.footer p {
+    text-align: center;
 }
