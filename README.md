@@ -1,5 +1,5 @@
 # Homework-Wk1
-This is a homework that was intended to shorten or compress the CSS file so that elements with similar contents be combined into one, improve code readability, and be easier to understand for future coders who will be working on the module.
+This is a homework that was intended as an exercise to learn how to shorten or compress the CSS file so that elements with similar contents be combined into one, improve code readability, and be easier to understand for future coders who will be working on the module.
 
 Activities:
  - Created a common class that is applicable to elements which has the same formatting and declaration.
