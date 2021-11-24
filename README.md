@@ -8,4 +8,6 @@ Activities:
  - Applied a bit of web responsiveness to .hero class to slight 
 
  Refer to demo.png for web page preview
-  -> [I'm a relative reference to a repository file](demo.png)
+  -> [I'm a relative reference to a repository file](demo.png) 
+  --> ![alt text][demo.png]
+
