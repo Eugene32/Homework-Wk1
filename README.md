@@ -9,5 +9,5 @@ Activities:
 
  Refer to demo.png for web page preview
   -> [I'm a relative reference to a repository file](demo.png) 
-  --> ![alt text][demo.png]
-
+  --> ![alt text][logo]
+[logo]: https://github.com/Eugene32/Homework-Wk1/blob/main/demo.png "Logo Title Text 2"
