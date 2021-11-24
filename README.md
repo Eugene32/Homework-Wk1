@@ -7,6 +7,8 @@ Activities:
  - CSS were placed with comments for easier understanding of what is the purpose of the class, ID, or element.
  - Applied a bit of web responsiveness to .hero class to slight 
 
+ Original file as reference:  [Original File] (https://github.com/Eugene32/Homework-Wk1/commit/b7deb6780a9caa3b20fad2548f1ea125dca49bc0)
+
  Refer to demo.png for web page preview:
 ![alt text][logo]
 
