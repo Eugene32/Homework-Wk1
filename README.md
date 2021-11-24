@@ -8,9 +8,12 @@ Activities:
  - Applied a bit of web responsiveness to .hero class for slight web responsiveness.
        - Homework was given before web responsiveness topic therefore items will move around when window will be resized.
 
- Original file as reference:  [Original File](https://github.com/Eugene32/Homework-Wk1/commit/b7deb6780a9caa3b20fad2548f1ea125dca49bc0)
 
- Refer to demo.png for web page preview:
+Launch Web Page --> [Web Page](https://eugene32.github.io/Homework-Wk1/)
+
+Original file as reference:  [Original File](https://github.com/Eugene32/Homework-Wk1/commit/b7deb6780a9caa3b20fad2548f1ea125dca49bc0)
+
+Refer to demo.png for web page preview:
 ![alt text][logo]
 
 [logo]: https://github.com/Eugene32/Homework-Wk1/blob/main/demo.png "Logo Title Text 2"
